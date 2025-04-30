@@ -157,3 +157,14 @@ cython_debug/
 /.idea/misc.xml
 /.idea/modules.xml
 /.idea/vcs.xml
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+.direnv
