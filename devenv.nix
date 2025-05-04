@@ -11,7 +11,11 @@
   # languages.rust.enable = true;
   languages.python = {
     enable = true;
-    venv.enable = true;
+    venv = {
+      enable = true;
+      # https://devenv.sh/languages/python/venv/
+      requirements = ./requirements.txt;
+    };
   };
 
   # https://devenv.sh/processes/
