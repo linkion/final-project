@@ -6,3 +6,5 @@ scipy
 jupyter
 notebook
 ipykernel
+torch
+torchvision
